@@ -1,0 +1,38 @@
+h1{
+	text-align: center;
+	color: black;
+	font-size: 50px;
+}
+body{
+	background-color: pink;
+}
+p{
+	font-size: 40px;
+	position: fixed;
+	top: 120px;
+	right: 60px;
+}
+#p{
+	font-size: 40px;
+	position: fixed;
+	top: 350px;
+	right: 950px;
+	color: purple;
+}
+ul{
+	font-size: 40px;
+	position: fixed;
+	top: 400px;
+	right: 950px;
+	color: purple;
+}
+
+#b{
+	position: fixed;
+	top: 400px;
+	right: 600px;
+}
+.c{
+	font-size: 30px;
+	margin-left: 10px;
+}
