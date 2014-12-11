@@ -1,0 +1,35 @@
+body {
+background-image: url(paris.jpg);
+background-repeat:no-repeat;
+background-size:100%;
+}
+html {
+
+}
+#header {
+	text-align: center;
+	font-size: 40px;
+}
+
+#hello_message {
+	color: black;
+}
+
+#content {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	font-size: 35px;
+
+	/* add a nice frame for your content */
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+#footer {
+	text-align: center;
+}
+
+.aaa {
+	background-color: pink;
+}

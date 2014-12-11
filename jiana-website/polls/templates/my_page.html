@@ -1,0 +1,33 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paris!</title>
+</head>
+<body>
+	<!-- HEADER -->
+	<div id="header">
+		<h1 id="hello_message">Welcome to Paris!</h1>
+	</div>
+
+	<!-- CONTENT -->
+	<div id="content">
+		<p>Hi!</p>
+		<p>This is a page about <strong>PARIS</strong>.</p>
+		<p>You are going to see the landmarks of it!!</p>
+		<p>So come on now and take a look at these pictures.</p>
+		<a href="http://en.wikipedia.org/wiki/Eiffel_Tower"><img id="img1" src="{% static 'polls/E-T.jpg' %}" width="200" height="200"></a>
+		<a href="http://en.wikipedia.org/wiki/Arc_de_Triomphe"><img id="img2" src="{% static 'polls/A-D-T.jpg' %}" width="200" height="200"></a>
+		<a href="http://en.wikipedia.org/wiki/Louvre"><img id="img3" src="{% static 'polls/louvre.jpg' %}" width="200" height="200"></a>
+		<a href="http://en.wikipedia.org/wiki/Palace_of_Versailles"><img id="img4" src="{% static 'polls/versailles.JPG' %}" width="200" height="200"></a>
+		<a href="http://en.wikipedia.org/wiki/Notre_Dame_de_Paris"><img id="img5" src="{% static 'polls/N-D.jpg' %}" width="200" height="200"></a>
+		<p class='aaa'>Want to know more? Click on the picture you want.</p>
+		<p class='aaa'>To get more information go to this website : </P>
+			<a class='aaa' href="http://en.wikipedia.org/wiki/Paris">PARIS</a>
+			<iframe width="0" height="0" src="//www.youtube.com/embed/Q3Kvu6Kgp88?autoplay=1" frameborder="0" allowfullscreen></iframe>
+
+	</div>
+
+</body>
+</html>
